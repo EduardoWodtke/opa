@@ -1,0 +1,49 @@
+<meta charset="UTF-8">
+<script>
+    /*
+    PROBLEMA
+    Construir um programa cuja entrada é uma matriz e a saída é o traço da matriz. 
+    */
+
+    //ENTRADA
+
+    let tipoDaMatriz = prompt("informe a tipo da matriz. (tipos possiveis: 2/2 | 3/3 | 4/4)");
+    let linhaUm = [];
+    let linhaDois = [];
+    let linhaTres = [];
+    let linhaQuatro = [];
+
+    //PROCESSAMENTO
+
+    if (tipoDaMatriz === '2/2') {
+        const matriz1L1 = Number(prompt("informe a matriz gamer pls!!"));
+        const matriz1L2 = Number(prompt("informe a matriz gamer pls!!"));
+        const matriz1L3 = Number(prompt("informe a matriz gamer pls!!"));
+        const matriz1L4 = Number(prompt("informe a matriz gamer pls!!"));
+        linhaUm.push(matriz1L1);
+        linhaUm.push(matriz1L2);
+        linhaDois.push(matriz1L3);
+        linhaDois.push(matriz1L4);
+        
+
+    } else if (tipoDaMatriz === '3/3') {
+        const matriz2L1 = Number(prompt("informe a matriz gamer pls!!"));
+        const matriz2L2 = Number(prompt("informe a matriz gamer pls!!"));
+        const matriz2L3 = Number(prompt("informe a matriz gamer pls!!"));
+
+    } else if (tipoDaMatriz === '4/4') {
+        const matriz3L1 = Number(prompt("informe a matriz gamer pls!!"));
+        const matriz3L2 = Number(prompt("informe a matriz gamer pls!!"));
+        const matriz3L3 = Number(prompt("informe a matriz gamer pls!!"));
+        const matriz3L4 = Number(prompt("informe a matriz gamer pls!!"));
+
+    } else {
+        alert("amigão, não sabe ler?")
+    }
+
+    //SAÍDA
+
+    document.write(linhaUm)
+    document.write(linhaDois)
+
+</script>
